@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Palindromes {
 
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -16,7 +17,11 @@ public class Palindromes {
         }
     }
 
-
+    /**
+     * Method to determine if a string is palindrome
+     * @param word string to check
+     * @return boolean determining if 'word' is palindrome
+     */
     public static boolean isPalindrome(String word){
         boolean isPalindrome = true;
         int right = word.length();
